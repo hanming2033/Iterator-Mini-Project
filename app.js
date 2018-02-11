@@ -35,7 +35,6 @@ function nextProfile(){
 
   if (currentProfile === undefined) {
     window.location.reload();
-    nextProfile();
   }
 
   document.querySelector('#profileDisplay').innerHTML = `
